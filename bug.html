@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    //Incorrect way to select an element with a space in the id
+    var element = document.getElementById("my Div");
+    element.style.color = "red";
+  </script>
+</body>
+</html>
